@@ -1,0 +1,34 @@
+{
+    "name": "codewithdiki/filament-daterange",
+    "description": "Filament Form plugin for Date Range Input",
+    "version" : "0.1",
+    "keywords": [
+        "codewithdiki",
+        "filament-daterange"
+    ],
+    "homepage": "https://github.com/codewithdiki/filament-daterange",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Diki Akbar",
+            "email": "diki.akbar1304@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "filament/forms": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Codewithdiki\\FilamentDaterange\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Codewithdiki\\FilamentDaterange\\FilamentDaterangeServiceProvider"
+            ]
+        }
+    }
+}
